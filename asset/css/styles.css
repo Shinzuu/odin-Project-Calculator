@@ -1,4 +1,12 @@
+.orbitron-font {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Adjust the font weight as needed */
+    font-style: normal;
+  }
+  
 main , footer{
+    font-family: "Orbitron", sans-serif; /* Add the Orbitron font */
     display: flex;
     justify-content: center;
     align-self: center;
@@ -13,14 +21,55 @@ main , footer{
 .keys {
     display: flex;
     flex-direction: row;
-
 }
 button {
     width: 117px;
     height: 81px;
+    margin-left: 0px;
+    margin-bottom: 27px;
+    margin-right: 36px;
+    border-radius: 10px 10px 25px 25px;
+    background-color: #41444d;
+    color: #d8dcdd;
+    font-weight: 800;
+    font-size: 39px;
 }
 
 .add {
     width: 117px;
     height: 192px;
+}
+
+.ac {
+    background-color: #9f6271;
+}
+
+.useable-border {
+    margin: auto;
+    width: 571px;
+}
+.accessories {
+    display: flex;
+    flex-direction: row;
+}
+.left-halve h1{
+    font-size: 65px;
+    margin-bottom: 0%;
+}
+.left-halve p{
+    font-size: 20px;
+}
+
+.solar {
+    width: 280px;
+    height: 100px;
+    background-color: #252422;
+    border: 10px solid #696c71;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 50px;         
+}
+.right-halve p{
+    margin-left: 80px;
+    margin-top: 0px;
 }
