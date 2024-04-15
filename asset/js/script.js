@@ -117,3 +117,11 @@ function enableButtons() {
         button.disabled = false;
     });
 }
+
+window.onload = function() {
+    setZoom(0.75);
+};
+
+function setZoom(zoomLevel) {
+    document.body.style.zoom = zoomLevel;
+}
