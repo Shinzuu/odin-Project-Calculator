@@ -68,7 +68,7 @@ function updateDisplay(symbol, lowerText, upperText) {
 }
 
 function clear() {
-    currentValue = "0";
+    currentValue = "";
     storedValue = null;
     operator = null;
     isError = false;
